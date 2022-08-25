@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{6611c46b-77fa-457c-85ac-fc765646c4cb}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\A2NLSF.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\analysis.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\ana_filt_bank_1.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\apply_sine_window_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\autocorr_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\bands.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\biquad_alt.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\burg_modified_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\bwexpander.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\bwexpander_32.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\celt.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\celt_decoder.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\celt_encoder.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\celt_lpc.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\check_control_input.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\CNG.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\code_signs.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\control_audio_bandwidth.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\control_codec.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\control_SNR.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\corrMatrix_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\cwrs.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\debug.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\decoder_set_fs.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\decode_core.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\decode_frame.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\decode_indices.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\decode_parameters.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\decode_pitch.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\decode_pulses.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\dec_API.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\encode_frame_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\encode_indices.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\encode_pulses.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\enc_API.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\entcode.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\entdec.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\entenc.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\find_LPC_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\find_LTP_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\find_pitch_lags_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\find_pred_coefs_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\gain_quant.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\HP_variable_cutoff.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\init_decoder.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\init_encoder.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\inner_prod_aligned.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\input_opus_dec.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\interpolate.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\k2a_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\k2a_Q16_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\kiss_fft.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\laplace.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\lin2log.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\log2lin.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\LPC_analysis_filter.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\LPC_fit.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\LPC_inv_pred_gain.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\LP_variable_cutoff.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\LTP_analysis_filter_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\LTP_scale_ctrl_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\mathops.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\mdct.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\mlp.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\mlp_data.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\modes.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\NLSF2A.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\NLSF_decode.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\NLSF_del_dec_quant.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\NLSF_encode.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\NLSF_stabilize.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\NLSF_unpack.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\NLSF_VQ.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\NLSF_VQ_weights_laroia.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\noise_shape_analysis_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\NSQ.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\NSQ_del_dec.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\opus.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\opus_decoder.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\opus_encoder.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\opus_multistream.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\opus_multistream_decoder.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\opus_multistream_encoder.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\output_opus_enc.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\pitch.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\pitch_analysis_core_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\pitch_est_tables.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\PLC.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\process_gains_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\process_NLSFs.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\quant_bands.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\quant_LTP_gains.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\rate.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\regularize_correlations_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\repacketizer.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\resampler.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\resampler_down2.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\resampler_down2_3.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\resampler_private_AR2.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\resampler_private_down_FIR.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\resampler_private_IIR_FIR.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\resampler_private_up2_HQ.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\resampler_rom.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\residual_energy16_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\residual_energy_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\schur64_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\schur_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\shell_coder.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\sigm_Q15.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\sort.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\stereo_decode_pred.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\stereo_encode_pred.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\stereo_find_predictor.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\stereo_LR_to_MS.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\stereo_MS_to_LR.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\stereo_quant_pred.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\sum_sqr_shift.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\tables_gain.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\tables_LTP.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\tables_NLSF_CB_NB_MB.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\tables_NLSF_CB_WB.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\tables_other.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\tables_pitch_lag.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\tables_pulses_per_block.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\table_LSF_cos.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\VAD.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\vector_ops_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\vq.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\VQ_WMat_EC.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\warped_autocorrelation_FIX.c" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\arm\celt_pitch_xcorr_arm_gcc.s" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\analysis.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\API.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arch.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\bands.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\celt.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\celt_lpc.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\config.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\control.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\cpu_support.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\cwrs.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\debug.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\define.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ecintrin.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\entcode.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\entdec.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\entenc.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\errors.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fixed_debug.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\fixed_generic.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\float_cast.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\global_lib_defines.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\Inlines.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\input_opus_dec.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\kiss_fft.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\laplace.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\MacroCount.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\MacroDebug.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\macros.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\main.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\main_FIX.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\mathops.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\mdct.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\mfrngcod.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\mlp.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\modes.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\NSQ.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\opus.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\opus_custom.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\opus_defines.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\opus_multistream.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\opus_private.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\opus_types.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\os_support.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\output_opus_enc.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\pitch.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\pitch_est_defines.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\PLC.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\quant_bands.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\rate.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\resampler_private.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\resampler_rom.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\resampler_structs.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\SigProc_FIX.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\stack_alloc.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\static_modes_fixed.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\static_modes_fixed_arm_ne10.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\static_modes_float.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\static_modes_float_arm_ne10.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\structs.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\structs_FIX.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\tables.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\tansig_table.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\tuning_parameters.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\typedef.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\vq.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\_kiss_fft_guts.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\armcpu.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\biquad_alt_arm.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\fixed_armv4.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\fixed_armv5e.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\kiss_fft_armv4.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\kiss_fft_armv5e.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\LPC_inv_pred_gain_arm.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\macros_armv4.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\macros_armv5e.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\NSQ_del_dec_arm.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\pitch_arm.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\SigProc_FIX_armv4.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\SigProc_FIX_armv5e.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\arm\warped_autocorrelation_FIX_arm.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    
+  </ItemGroup>
+</Project>
