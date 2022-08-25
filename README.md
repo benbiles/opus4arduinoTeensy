@@ -9,6 +9,8 @@ https://github.com/mgergos/Opus4Teensy
 
 so far the only main differnce is the global defines for the library are in global_lib_defines.h which is inluded in every file in the library.
 
-unfortuantely this is locking the tennsy4.1 at the moment. work in progress! 
+unfortuantely this is locking the tennsy4.1 after compile / upload to teensy in arduino IDE. 
+
+work in progress! 
 
 
